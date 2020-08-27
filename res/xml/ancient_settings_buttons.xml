@@ -85,6 +85,12 @@
             android:summary="@string/volume_summary" />
 
         <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="music_volume_panel_dialog"
+            android:title="@string/volume_panel_musiccard_title"
+            android:summary="@string/volume_panel_musiccard_summary"
+            android:defaultValue="true" />
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="audio_panel_location"
             android:title="@string/audio_panel_location_title"
             android:summary="@string/audio_panel_location_summary"
